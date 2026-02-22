@@ -1,36 +1,159 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🧠 PRANAV.EXE — AI Engineer Portfolio
 
-## Getting Started
+> A cinematic, system-driven portfolio built to showcase real-world AI and full-stack engineering capability. This is not a static resume website. It is an interactive engineering system.
 
-First, run the development server:
+---
+
+## 🌐 Live Demo
+
+> Coming Soon (Deploy link here after Vercel deployment)
+
+---
+
+## ⚙️ Built With
+
+| Technology | Purpose |
+|---|---|
+| **Next.js (App Router)** | Core framework |
+| **TypeScript** | Type-safe development |
+| **Tailwind CSS** | Styling |
+| **Framer Motion** | Animations |
+| **Mermaid.js** | Architecture diagrams |
+| **GitHub REST API** | Live repo analysis |
+
+> Client-side architecture only — no paid APIs required.
+
+---
+
+## 🔥 Core Features
+
+### 🖥 Cinematic Boot Sequence
+System-style intro animation with skip functionality for performance optimization.
+
+---
+
+### 💻 Hacker Terminal Interface
+Interactive command-based terminal with hidden recruiter commands.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ help       # List all available commands
+$ whoami     # Display identity profile
+$ hire pranav  # 👀
+$ projects   # Show project list
+$ contact    # Get contact info
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🧠 Interview Simulation Mode
+Interactive recruiter panel that answers:
+- Internship readiness
+- System design philosophy
+- AI usage in production
+- Project breakdown
+- Why hire me
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+> Built with structured hardcoded intelligence — no API dependency.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+### 📊 GitHub AI Analyzer
+Enter any GitHub username to:
+- Analyze repositories
+- Detect top languages
+- Calculate compatibility score
+- Compare against my profile
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+> Powered by the public GitHub REST API.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+### 🏗 Architect Mode
+Toggle system architecture diagrams for each project using **Mermaid.js**.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Demonstrates:
+- API flow
+- Database schema logic
+- AI integration points
+- Real-time architecture
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+### 👀 Recruiter Mode
+Auto-detection UI for desktop visitors. Guides recruiters directly to the best projects.
+
+---
+
+### 📈 Live Visitor Counter
+Tracks total portfolio visits using **CountAPI** — free, no backend required.
+
+---
+
+## 📁 Project Structure
+
+```
+├── app/
+├── components/
+│   ├── BootScreen.tsx
+│   ├── Terminal.tsx
+│   ├── InterviewMode.tsx
+│   ├── GitHubAnalyzer.tsx
+│   ├── RecruiterDetector.tsx
+│   ├── VisitorCounter.tsx
+│   └── Projects.tsx
+├── public/
+├── lib/
+└── styles/
+```
+
+---
+
+## 🎯 Philosophy
+
+> **Build systems, not pages.**
+
+Every feature reflects:
+- Product thinking
+- Modular architecture
+- AI integration as a functional component
+- Performance-first UI
+- Recruiter psychology awareness
+
+---
+
+## 🚀 Deployment
+
+Deployed via **Vercel**.
+
+**Run locally:**
+```bash
+npm install
+npm run dev
+```
+
+**Build for production:**
+```bash
+npm run build
+```
+
+---
+
+## 📬 Contact
+
+| Platform | Link |
+|---|---|
+| 🐙 GitHub | [agarwalpranav0711](https://github.com/agarwalpranav0711) |
+| 💼 LinkedIn | [pranavagarwal07](https://www.linkedin.com/in/pranavagarwal07) |
+| 📧 Email | agarwalpranav0711@gmail.com |
+
+---
+
+## 🏁 Status
+
+```
+System Status : ✅ Production Ready
+Open To       : AI Engineering Internships
+                Full-Stack Internships
+                GSoC Opportunities
+                Technical Collaborations
+```
