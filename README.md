@@ -6,7 +6,7 @@
 
 ## 🌐 Live Demo
 
-> Coming Soon (Deploy link here after Vercel deployment)
+> https://pranav-ai-portfolio.vercel.app/
 
 ---
 
