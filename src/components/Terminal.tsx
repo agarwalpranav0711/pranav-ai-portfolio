@@ -25,12 +25,14 @@ const COMMANDS = {
     ],
     projects: [
         "DEPLOYED SYSTEMS:",
-        "  1. Get Me A Chai      - Creator Support Platform",
-        "  2. PersonaX           - AI Behavioral Analysis",
-        "  3. AI Collab Studio   - Real-time AI Editor",
-        "  4. Architect Bot      - System Diagram Generator",
-        "  5. NPM Health Scanner - Ecosystem Diagnostics",
-        "  6. Twitter UI Clone   - Pixel-perfect UI experiment"
+        "  1. NEXUS OS           - Multi-agent AI Operating System",
+        "  2. Ether OS           - Sovereign Orchestration Layer",
+        "  3. Get Me A Chai      - Creator Support Platform",
+        "  4. PersonaX           - AI Behavioral Analysis",
+        "  5. AI Collab Studio   - Real-time AI Editor",
+        "  6. Architect Bot      - System Diagram Generator",
+        "  7. NPM Health Scanner - Ecosystem Diagnostics",
+        "  8. Twitter UI Clone   - Pixel-perfect UI experiment"
     ],
     skills: [
         "CORE TECH ARSENAL:",

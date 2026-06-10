@@ -18,6 +18,35 @@ interface Project {
 
 const projects: Project[] = [
     {
+        title: "NEXUS — AI Operating System",
+        description: "Multi-agent AI Operating System that executes real-world actions from single natural language commands. Features 5 parallel specialist agents (asyncio), live SSE streaming reasoning feeds, and human-in-the-loop approval governance.",
+        tech: ["FastAPI", "Next.js", "TypeScript", "Groq", "Google OAuth2", "n8n"],
+        github: "https://github.com/agarwalpranav0711/nexus-os",
+        live: "#",
+        icon: <Terminal className="w-5 h-5" />,
+        color: "from-red-500 to-orange-600",
+        diagram: `graph TD
+      Query[User Query] --> Router[LLM Router]
+      Router --> Agents[5 Parallel Agents]
+      Agents --> Gateway[Approval Gateway]
+      Gateway --> Exec[Execution Engine]`
+    },
+    {
+        title: "Ether OS",
+        description: "Sovereign multi-agent orchestration layer designed for recursive task decomposition and parallel execution. Uses a Manager-Worker architecture to synthesize complex objectives into high-fidelity strategic briefs.",
+        tech: ["FastAPI", "Next.js", "Zustand", "Framer Motion", "TailwindCSS", "PostgreSQL"],
+        github: "https://github.com/agarwalpranav0711/ether-os",
+        live: "https://ether-os.vercel.app",
+        icon: <Network className="w-5 h-5" />,
+        color: "from-indigo-500 to-cyan-500",
+        diagram: `graph TD
+      Obj[Objective] --> Mgr[Manager Node]
+      Mgr --> W1[Worker A]
+      Mgr --> W2[Worker B]
+      W1 & W2 --> Synth[Synthesizer]
+      Synth --> Brief[Strategic Brief]`
+    },
+    {
         title: "Get Me A Chai",
         description: "Full-stack creator monetization platform. Built with Next.js and MongoDB, featuring secure NextAuth integration for creators to receive payments and messages.",
         tech: ["Next.js", "MongoDB", "NextAuth", "Razorpay"],
