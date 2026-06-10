@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { X, Mail, Linkedin, AlertCircle } from "lucide-react"
+import { X, Mail, Linkedin, AlertCircle, FileText } from "lucide-react"
 
 interface ResumeModalProps {
     isOpen: boolean
@@ -60,28 +60,42 @@ export default function ResumeModal({ isOpen, onClose }: ResumeModalProps) {
                                 <span className="text-zinc-500 text-sm mt-2 block">Available on request.</span>
                             </p>
 
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                            <div className="flex flex-col gap-4 w-full">
                                 <motion.a
-                                    href="mailto:agarwalpranav0711@gmail.com"
-                                    whileHover={{ scale: 1.02, y: -2 }}
-                                    whileTap={{ scale: 0.98 }}
-                                    className="flex items-center justify-center gap-3 px-6 py-4 bg-cyan-500/10 border border-cyan-500/20 rounded-2xl text-cyan-400 font-bold text-sm hover:bg-cyan-500/20 transition-all"
-                                >
-                                    <Mail className="w-4 h-4" />
-                                    EMAIL ME
-                                </motion.a>
-
-                                <motion.a
-                                    href="https://www.linkedin.com/in/pranavagarwal07"
+                                    href="https://drive.google.com/file/d/1lefZ2lmMJHui9yvQsjzfKp_zRO7xdiN-/view?usp=sharing"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     whileHover={{ scale: 1.02, y: -2 }}
                                     whileTap={{ scale: 0.98 }}
-                                    className="flex items-center justify-center gap-3 px-6 py-4 bg-white text-black rounded-2xl font-bold text-sm hover:bg-zinc-200 transition-all"
+                                    className="flex items-center justify-center gap-3 px-6 py-4 bg-cyan-500 text-black rounded-2xl font-bold text-sm hover:bg-cyan-400 transition-all shadow-[0_0_15px_rgba(34,211,238,0.3)]"
                                 >
-                                    <Linkedin className="w-4 h-4" />
-                                    LINKEDIN
+                                    <FileText className="w-4 h-4" />
+                                    VIEW RESUME (GOOGLE DRIVE)
                                 </motion.a>
+
+                                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full">
+                                    <motion.a
+                                        href="mailto:agarwalpranav0711@gmail.com"
+                                        whileHover={{ scale: 1.02, y: -2 }}
+                                        whileTap={{ scale: 0.98 }}
+                                        className="flex items-center justify-center gap-3 px-6 py-4 bg-cyan-500/10 border border-cyan-500/20 rounded-2xl text-cyan-400 font-bold text-sm hover:bg-cyan-500/20 transition-all"
+                                    >
+                                        <Mail className="w-4 h-4" />
+                                        EMAIL ME
+                                    </motion.a>
+
+                                    <motion.a
+                                        href="https://www.linkedin.com/in/pranavagarwal07"
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        whileHover={{ scale: 1.02, y: -2 }}
+                                        whileTap={{ scale: 0.98 }}
+                                        className="flex items-center justify-center gap-3 px-6 py-4 bg-white text-black rounded-2xl font-bold text-sm hover:bg-zinc-200 transition-all"
+                                    >
+                                        <Linkedin className="w-4 h-4" />
+                                        LINKEDIN
+                                    </motion.a>
+                                </div>
                             </div>
                         </div>
 

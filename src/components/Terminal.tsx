@@ -111,12 +111,13 @@ export default function Terminal() {
                     <motion.a
                         initial={{ opacity: 0, x: -10 }}
                         animate={{ opacity: 1, x: 0 }}
-                        href="/resume.pdf"
-                        download
+                        href="https://drive.google.com/file/d/1lefZ2lmMJHui9yvQsjzfKp_zRO7xdiN-/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-500 text-black font-bold rounded-lg hover:bg-cyan-400 transition-all text-xs"
                     >
                         <Download className="w-4 h-4" />
-                        DOWNLOAD RESUME (PDF)
+                        VIEW RESUME (GOOGLE DRIVE)
                     </motion.a>
                     <div className="space-y-1 text-cyan-400/80 text-xs md:text-sm">
                         <p>• Email: <a href="mailto:agarwalpranav0711@gmail.com" className="hover:text-cyan-400 decoration-cyan-400/30 underline underline-offset-4">agarwalpranav0711@gmail.com</a></p>

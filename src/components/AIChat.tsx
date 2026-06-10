@@ -48,8 +48,9 @@ const KNOWLEDGE_BASE = {
         "3. AI NATIVE. He integrates intelligence into the core, not as a wrapper."
     ],
     resume: [
-        "ACCESS RESTRICTED: COMPLETE PROOF OF WORK AVAILABLE ON GITHUB.",
-        "Type 'contact' to request a physical CV or verify technical skills via 'projects'."
+        "SECURE SYSTEM ACCESS GRANTED.",
+        "Link: https://drive.google.com/file/d/1lefZ2lmMJHui9yvQsjzfKp_zRO7xdiN-/view?usp=sharing",
+        "You can view and download the physical CV directly."
     ],
     default: [
         "I operate primarily on Engineering, AI systems, and real-world product building.",
